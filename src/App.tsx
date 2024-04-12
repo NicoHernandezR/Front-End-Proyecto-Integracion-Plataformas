@@ -1,10 +1,11 @@
 import './App.css'
+import InicioMenu from './inicioMenu/components/InicioMenu'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <InicioMenu />
+    </>
   )
 }
 
